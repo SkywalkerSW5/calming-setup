@@ -10,4 +10,5 @@ cd .compiled
 git clone https://github.com/SkywalkerSW5/calming-setup.git
 mv Arc-Clone /home/SkywalkerSW5/.themes
 cd
+zsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
