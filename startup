@@ -1,1 +1,2 @@
-compton & plank & vala-panel & mate-control-center & feh --bg-fill calm.jpg & setxkbmap us
+compton & plank & vala-panel & mate-appearance-properties  & setxkbmap us  & feh --bg-fill background.png & sudo chmod 777 /dev/vchiq & ./.screensaver & clear &
+
