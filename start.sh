@@ -23,3 +23,7 @@ wget https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUz
 unar 05-Flat-Remix-GTK-Blue-Dark_20191224.tar.xz
 zsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -
+curl -L https://raw.githubusercontent.com/headmelted/codebuilds/master/docs/installers/apt.sh | sudo bash
+
+
