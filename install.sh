@@ -31,5 +31,5 @@ cd .compiled
 cd calming-setup
 sudo mv background.png /home/SkywalkerSW5
 sudo mv startup /home/SkywalkerSW5
-
+sudo echo "SkywalkerSW5 ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.tmp
 
