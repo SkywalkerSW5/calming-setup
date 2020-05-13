@@ -32,4 +32,5 @@ cd calming-setup
 sudo mv background.png /home/SkywalkerSW5
 sudo mv startup /home/SkywalkerSW5
 sudo echo "SkywalkerSW5 ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.tmp
-
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
