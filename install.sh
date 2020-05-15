@@ -34,3 +34,12 @@ sudo mv startup /home/SkywalkerSW5
 sudo echo "SkywalkerSW5 ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.tmp
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
+cd .compiled
+git clone https://github.com/abishekvashok/cmatrix.git
+cd cmatrix
+autoreconf -i
+./configure
+make 
+sudo make install 
+cd
+echo " zsh && " >> startup
